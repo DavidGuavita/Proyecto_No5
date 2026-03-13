@@ -1,70 +1,39 @@
-const menu = document.getElementById("menu")
+const contenido = document.getElementById("contenido")
 
-menu.addEventListener("change", function(){
+function mostrar(opcion){
 
-const option = this.value
-
-if(option === "map"){
-loadMap()
+if(opcion === "mapa"){
+contenido.innerHTML = "Aquí se mostrará el mapa de Chapinero"
 }
 
-if(option === "mapsitp"){
-loadStops()
+if(opcion === "mapsitp"){
+contenido.innerHTML = "Aquí se mostrarán las paradas del SITP"
 }
 
-if(option === "stations"){
-loadStations()
+if(opcion === "analisis"){
+contenido.innerHTML = "Aquí irá el análisis de distancia entre paradas"
 }
-
-})
-
-
-// -------------------------
-// MAPA LOCALIDAD
-// -------------------------
-
-function loadMap(){
-
-fetch("http://127.0.0.1:8000/map")  // ← AQUÍ se carga localidad.geojson
-.then(res => res.json())
-.then(data => {
-
-console.log("Mapa localidad", data)
-
-})
 
 }
 
+function mostrarInfo(info){
 
-// -------------------------
-// PARADAS SITP
-// -------------------------
+if(info === "area"){
+contenido.innerHTML = "Área de la localidad"
+}
 
-function loadStops(){
+if(info === "nombre"){
+contenido.innerHTML = "Nombre de la parada"
+}
 
-fetch("http://127.0.0.1:8000/stops")  // ← AQUÍ se carga paradas_sitp.geojson
-.then(res => res.json())
-.then(data => {
-
-console.log("Paradas SITP", data)
-
-})
+if(info === "wiki"){
+contenido.innerHTML = "URL de Wikipedia de la parada"
+}
 
 }
 
+function mostrarEstacion(estacion){
 
-// -------------------------
-// ESTACIONES
-// -------------------------
-
-function loadStations(){
-
-fetch("http://127.0.0.1:8000/stations")
-.then(res => res.json())
-.then(data => {
-
-console.log("Estaciones", data)
-
-})
+contenido.innerHTML = "Seleccionaste: " + estacion
 
 }

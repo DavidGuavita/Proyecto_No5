@@ -2,22 +2,45 @@
 <html>
 
 <head>
-<title>SITP Localidad</title>
+
+<meta charset="UTF-8">
+<title>Proyecto SITP Chapinero</title>
+
+<link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<select id="menu">
+<div class="menu">
 
-<option value="map">Map</option>
-<option value="mapsitp">Map SITP</option>
-<option value="info">Información</option>
-<option value="stations">Estaciones</option>
-<option value="analysis">Análisis</option>
+<button onclick="mostrar('mapa')">Mapa</button>
 
+<button onclick="mostrar('mapsitp')">Mapa SITP</button>
+
+<select onchange="mostrarInfo(this.value)">
+<option>Información</option>
+<option value="area">Área</option>
+<option value="nombre">Nombre</option>
+<option value="wiki">Wiki</option>
 </select>
 
-<div id="content"></div>
+<select onchange="mostrarEstacion(this.value)">
+<option>Estaciones</option>
+<option value="parada1">Parada 1</option>
+<option value="parada2">Parada 2</option>
+<option value="parada3">Parada 3</option>
+</select>
+
+<button onclick="mostrar('analisis')">Análisis</button>
+
+</div>
+
+<div id="contenido">
+
+Seleccione una opción
+
+</div>
 
 <script src="program.js"></script>
 
