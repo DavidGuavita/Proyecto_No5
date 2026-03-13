@@ -1,0 +1,3553 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-03-13T18:21:51Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2149915237",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "CC Cantama",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0550394,
+          4.6704979
+        ]
+      },
+      "id": "node/2149915237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2518727866",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Sena",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "650A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0623326,
+          4.6522268
+        ]
+      },
+      "id": "node/2518727866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2534518081",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "El Retiro",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "294A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0509081,
+          4.6655588
+        ]
+      },
+      "id": "node/2534518081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2790539159",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Chicó norte III sector",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "622A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.050901,
+          4.6835537
+        ]
+      },
+      "id": "node/2790539159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2858349383",
+        "bench": "no",
+        "highway": "bus_stop",
+        "local_ref": "L",
+        "name": "Sucre",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-027A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0667027,
+          4.6310388
+        ]
+      },
+      "id": "node/2858349383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484211975",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Pedagógica Nacional",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "319A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0594636,
+          4.6575688
+        ]
+      },
+      "id": "node/3484211975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484211976",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Quinta Camacho",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "320A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0578724,
+          4.6564796
+        ]
+      },
+      "id": "node/3484211976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484211978",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bellavista",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "368A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05389,
+          4.6572763
+        ]
+      },
+      "id": "node/3484211978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484484905",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gimnasio Moderno",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "106A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0540591,
+          4.6602087
+        ]
+      },
+      "id": "node/3484484905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484484906",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "El Nogal",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "107A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0530965,
+          4.6617363
+        ]
+      },
+      "id": "node/3484484906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3484484907",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "El Nogal",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "318A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0518503,
+          4.6636428
+        ]
+      },
+      "id": "node/3484484907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752242725",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sitp Marly",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "227A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0668757,
+          4.6324789
+        ]
+      },
+      "id": "node/3752242725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3827953663",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Chicó III sector",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "293A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0523074,
+          4.6837952
+        ]
+      },
+      "id": "node/3827953663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3850912180",
+        "bench": "no",
+        "check_date:shelter": "2024-01-31",
+        "highway": "bus_stop",
+        "name": "Dirección de Sanidad",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "377A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0630832,
+          4.6392123
+        ]
+      },
+      "id": "node/3850912180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884258",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Alcaldía Local de Chapinero",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-024A",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0647238,
+          4.6427325
+        ]
+      },
+      "id": "node/3861884258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884260",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2024-01-30",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Almacenes Tía",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "098A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0644619,
+          4.6441998
+        ]
+      },
+      "id": "node/3861884260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884264",
+        "bench": "no",
+        "check_date:shelter": "2022-11-07",
+        "highway": "bus_stop",
+        "name": "Chapinero norte",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-022A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0629969,
+          4.6530765
+        ]
+      },
+      "id": "node/3861884264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884266",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2024-01-30",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Clínica de Marly",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-026A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0659208,
+          4.6355831
+        ]
+      },
+      "id": "node/3861884266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884269",
+        "bench": "no",
+        "check_date:shelter": "2026-01-24",
+        "highway": "bus_stop",
+        "name": "Clínica del Niño",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "047A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0620148,
+          4.6516314
+        ]
+      },
+      "id": "node/3861884269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884276",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2022-11-07",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Quinta Camacho",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-021A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0596364,
+          4.6560424
+        ]
+      },
+      "id": "node/3861884276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884279",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Secretaría del Hábitat",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-025A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0653944,
+          4.6387009
+        ]
+      },
+      "id": "node/3861884279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861884283",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Tecnoparque SENA",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "233A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0650358,
+          4.6407949
+        ]
+      },
+      "id": "node/3861884283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3878993633",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Avenida Caracas",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "638A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0648523,
+          4.6438341
+        ]
+      },
+      "id": "node/3878993633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3879227359",
+        "bench": "no",
+        "bin": "yes",
+        "check_date:shelter": "2024-01-31",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Estación Marly",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "034A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.065577,
+          4.6403388
+        ]
+      },
+      "id": "node/3879227359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3879238819",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "La Cabrera",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-034A",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0460556,
+          4.6669697
+        ]
+      },
+      "id": "node/3879238819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3879238821",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2022-03-27",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Universidad San Martín",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "755A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0596908,
+          4.6698663
+        ]
+      },
+      "id": "node/3879238821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3880310886",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Estación Calle 85",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "766A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0592586,
+          4.6723623
+        ]
+      },
+      "id": "node/3880310886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3885537587",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Calle 100",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-042A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04375,
+          4.6821084
+        ]
+      },
+      "id": "node/3885537587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3885537589",
+        "bench": "no",
+        "bus": "yes",
+        "check_date:shelter": "2021-05-26",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chicó norte II sector",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-043A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0450637,
+          4.6795494
+        ]
+      },
+      "id": "node/3885537589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890041028",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Retiro",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-046A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0518615,
+          4.6674646
+        ]
+      },
+      "id": "node/3890041028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890041032",
+        "bench": "no",
+        "bin": "yes",
+        "check_date:shelter": "2021-04-19",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Espartillal - Parada Bus dual",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-047A",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0546026,
+          4.6633412
+        ]
+      },
+      "id": "node/3890041032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890041034",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "La Cabrera",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "045A00",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0512759,
+          4.6683996
+        ]
+      },
+      "id": "node/3890041034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890041039",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Parque de la 93",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-044A",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.047531,
+          4.6747644
+        ]
+      },
+      "id": "node/3890041039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890041043",
+        "bench": "no",
+        "bus": "yes",
+        "check_date:shelter": "2021-06-10",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Seguros del Estado",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "221A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.048709,
+          4.6725269
+        ]
+      },
+      "id": "node/3890041043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890992075",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "La Porciúncula",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "225A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0572098,
+          4.6595658
+        ]
+      },
+      "id": "node/3890992075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3890992077",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Porciúncula",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-020A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0567748,
+          4.6608709
+        ]
+      },
+      "id": "node/3890992077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891199377",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Bosque Calderón",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "556A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0605512,
+          4.6410711
+        ]
+      },
+      "id": "node/3891199377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891199379",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "check_date:shelter": "2021-01-09",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Calle 86A",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "600A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0446598,
+          4.6666526
+        ]
+      },
+      "id": "node/3891199379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891199381",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Universidad de La Salle sede Chapinero",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "560A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0600878,
+          4.6425598
+        ]
+      },
+      "id": "node/3891199381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3896028873",
+        "bench": "no",
+        "bin": "yes",
+        "check_date:shelter": "2022-12-23",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chapinero central",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "700A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0654067,
+          4.6444744
+        ]
+      },
+      "id": "node/3896028873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3896028884",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Estación Héroes",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "754A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0602074,
+          4.6670947
+        ]
+      },
+      "id": "node/3896028884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897562087",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2022-04-09",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Carrera 8",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "046A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0605198,
+          4.6482191
+        ]
+      },
+      "id": "node/3897562087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897562090",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2023-03-24",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "SITP",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0636927,
+          4.6510794
+        ]
+      },
+      "id": "node/3897562090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897567894",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "CAI Granada",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "564A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0567488,
+          4.6471613
+        ]
+      },
+      "id": "node/3897567894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897567895",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Carrera 1",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "570A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0543467,
+          4.6464527
+        ]
+      },
+      "id": "node/3897567895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897567897",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Colegio Rosario Santo Domingo",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "571A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0537216,
+          4.6468008
+        ]
+      },
+      "id": "node/3897567897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897567899",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Granada",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "569A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0542202,
+          4.6477537
+        ]
+      },
+      "id": "node/3897567899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899237986",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chicó oriental",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-037A",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0443301,
+          4.670228
+        ]
+      },
+      "id": "node/3899237986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899237989",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Refugio",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "BD-035A",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0464668,
+          4.6656628
+        ]
+      },
+      "id": "node/3899237989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899237990",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Refugio",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "040A00",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0461286,
+          4.6662776
+        ]
+      },
+      "id": "node/3899237990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899237992",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2023-05-26",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Embajada del Perú",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "network:wikipedia": "es:Sistema Integrado de Transporte de Bogotá",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "041A00",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0488104,
+          4.662766
+        ]
+      },
+      "id": "node/3899237992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899237996",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bellavista",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "049A00",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0551136,
+          4.6553642
+        ]
+      },
+      "id": "node/3899237996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903909211",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2023-05-26",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Calle 85",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "599A00",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0460007,
+          4.6649764
+        ]
+      },
+      "id": "node/3903909211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903909213",
+        "bench": "no",
+        "bus": "yes",
+        "check_date:shelter": "2022-12-11",
+        "highway": "bus_stop",
+        "name": "El Refugio",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "601A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.044039,
+          4.6676158
+        ]
+      },
+      "id": "node/3903909213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3903909215",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2022-03-19",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Ingemar",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "566A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0563159,
+          4.642302
+        ]
+      },
+      "id": "node/3903909215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905788264",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "SITP",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0508494,
+          4.6832497
+        ]
+      },
+      "id": "node/3905788264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905805130",
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2024-01-31",
+        "highway": "bus_stop",
+        "name": "Confenalco",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "057A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0637912,
+          4.6396234
+        ]
+      },
+      "id": "node/3905805130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905855607",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "SITP",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0643224,
+          4.6351038
+        ]
+      },
+      "id": "node/3905855607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905867639",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siberia central",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "544A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.059755,
+          4.6338131
+        ]
+      },
+      "id": "node/3905867639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3905867643",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siberia central",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "543A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0594763,
+          4.6349074
+        ]
+      },
+      "id": "node/3905867643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571005",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centro Comercial Artelana 305A00",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "305A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0548935,
+          4.6707628
+        ]
+      },
+      "id": "node/3907571005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571009",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Parque El Virrey 306A00",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "306A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0540636,
+          4.6724151
+        ]
+      },
+      "id": "node/3907571009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571015",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "CADE Chicó 307A00",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "307A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0533611,
+          4.6738593
+        ]
+      },
+      "id": "node/3907571015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571019",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Centro Comercial La Plazuela 308A00",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "ref": "308A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0526543,
+          4.6752182
+        ]
+      },
+      "id": "node/3907571019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571024",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Centro Comercial La 93 - 310A00",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "309A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0515305,
+          4.6774402
+        ]
+      },
+      "id": "node/3907571024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571031",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Cámara de Comercio sede norte",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "310A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.051108,
+          4.678279
+        ]
+      },
+      "id": "node/3907571031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3907571040",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chicó norte II sector",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "312A00",
+        "shelter": "yes",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.048909,
+          4.6824637
+        ]
+      },
+      "id": "node/3907571040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3922707116",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Chicó",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "129A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0518814,
+          4.6737473
+        ]
+      },
+      "id": "node/3922707116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3964774884",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Calle 82",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-033A",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.049379,
+          4.6621382
+        ]
+      },
+      "id": "node/3964774884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3964785665",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chapinero central",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-023",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0638587,
+          4.6477536
+        ]
+      },
+      "id": "node/3964785665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4102665261",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "operator": "SITP",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0667687,
+          4.6305047
+        ]
+      },
+      "id": "node/4102665261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173707407",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0585299,
+          4.6764998
+        ]
+      },
+      "id": "node/5173707407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173723124",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0498343,
+          4.6789233
+        ]
+      },
+      "id": "node/5173723124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6138095185",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Recojida de pasaporte",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.064585,
+          4.6401614
+        ]
+      },
+      "id": "node/6138095185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6258171205",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "KR 11A Este",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "542A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0223281,
+          4.6641342
+        ]
+      },
+      "id": "node/6258171205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6803126686",
+        "bench": "yes",
+        "check_date:shelter": "2025-06-24",
+        "highway": "bus_stop",
+        "name": "Pquia. la inmaculada concepción",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0493479,
+          4.6713843
+        ]
+      },
+      "id": "node/6803126686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6825873501",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Chicó Norte",
+        "ref": "287A00",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0512303,
+          4.6754435
+        ]
+      },
+      "id": "node/6825873501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195272246",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Chicó",
+        "public_transport": "platform",
+        "ref": "348A00",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0445306,
+          4.6702255
+        ]
+      },
+      "id": "node/7195272246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195272247",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0447827,
+          4.6696653
+        ]
+      },
+      "id": "node/7195272247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195272248",
+        "addr:postcode": "11001",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Chicó",
+        "public_transport": "platform",
+        "ref": "BD-036A",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.044941,
+          4.6692884
+        ]
+      },
+      "id": "node/7195272248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195332019",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Chicó",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0445925,
+          4.6700856
+        ]
+      },
+      "id": "node/7195332019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195332020",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Chicó",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0444672,
+          4.6703457
+        ]
+      },
+      "id": "node/7195332020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7990039789",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Parque Japón",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-045A",
+        "shelter": "no",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0500838,
+          4.6699868
+        ]
+      },
+      "id": "node/7990039789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8096533091",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Calle 74",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "ND-029A",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0542786,
+          4.6570384
+        ]
+      },
+      "id": "node/8096533091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296258",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Diagonal 95",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "512A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0228432,
+          4.666839
+        ]
+      },
+      "id": "node/8729296258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296259",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "La Esperanza Nororiental",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "593A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0228266,
+          4.6653742
+        ]
+      },
+      "id": "node/8729296259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296260",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "San Isidro",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "694A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0207029,
+          4.6655923
+        ]
+      },
+      "id": "node/8729296260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296261",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Carrera 11 Este",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "354A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0201337,
+          4.6665607
+        ]
+      },
+      "id": "node/8729296261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296262",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "San Isidro",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "594A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0189745,
+          4.6676016
+        ]
+      },
+      "id": "node/8729296262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296263",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "TV 12A Este",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "515A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0175515,
+          4.6680929
+        ]
+      },
+      "id": "node/8729296263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296266",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "CED Julio Antonio Galán",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "359A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0287574,
+          4.6754435
+        ]
+      },
+      "id": "node/8729296266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296267",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Carrera 2 - Vía La Calera",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "353A01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0366699,
+          4.6742665
+        ]
+      },
+      "id": "node/8729296267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296268",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Chicó Oriental",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "769A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0392443,
+          4.6686657
+        ]
+      },
+      "id": "node/8729296268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296269",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Carrera 4",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "602A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0410845,
+          4.6693189
+        ]
+      },
+      "id": "node/8729296269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296270",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "El Refugio",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "798A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0441747,
+          4.6689343
+        ]
+      },
+      "id": "node/8729296270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8729296271",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Urb. El Refugio",
+        "network": "SITP",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "598A00",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0462941,
+          4.6648046
+        ]
+      },
+      "id": "node/8729296271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9341129902",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Estación Policía Chapinero",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "561A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0573677,
+          4.642913
+        ]
+      },
+      "id": "node/9341129902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9341129903",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Quesada",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "262A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0657027,
+          4.6402246
+        ]
+      },
+      "id": "node/9341129903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9341597184",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Marly",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "056A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0639804,
+          4.6399358
+        ]
+      },
+      "id": "node/9341597184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9344902092",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Carrera 9",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "105A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.055965,
+          4.6573568
+        ]
+      },
+      "id": "node/9344902092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9347308338",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "La Porciuncula",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-029A",
+        "shelter": "yes",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0540542,
+          4.6573302
+        ]
+      },
+      "id": "node/9347308338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9348997195",
+        "bench": "yes",
+        "check_date:shelter": "2026-01-24",
+        "highway": "bus_stop",
+        "name": "Clínica de Traumatología y Ortopedia",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "227A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0593549,
+          4.6564122
+        ]
+      },
+      "id": "node/9348997195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9348997196",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Pedagógica",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "226A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0583623,
+          4.6578672
+        ]
+      },
+      "id": "node/9348997196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349035996",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Pedagógica Nacional",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "319A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0595282,
+          4.6575327
+        ]
+      },
+      "id": "node/9349035996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349035997",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Pedagógica",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-050",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0585204,
+          4.6568248
+        ]
+      },
+      "id": "node/9349035997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349200658",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Cuerpo Oficial de Bomberos de Bogotá",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "232A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0638031,
+          4.6481608
+        ]
+      },
+      "id": "node/9349200658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349701154",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Calle 67",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "279A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.059508,
+          4.6519781
+        ]
+      },
+      "id": "node/9349701154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9349713011",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Quinta Camacho",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "228A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0607145,
+          4.6543547
+        ]
+      },
+      "id": "node/9349713011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9353781817",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Marly",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "227A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0668756,
+          4.6324905
+        ]
+      },
+      "id": "node/9353781817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9353781818",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Sucre",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "278A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0667999,
+          4.6322884
+        ]
+      },
+      "id": "node/9353781818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9354155407",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Paradero",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "198A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0655818,
+          4.6374295
+        ]
+      },
+      "id": "node/9354155407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9354155408",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0649,
+          4.6415684
+        ]
+      },
+      "id": "node/9354155408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9354155409",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0648405,
+          4.6418793
+        ]
+      },
+      "id": "node/9354155409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9356716965",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0648241,
+          4.6421177
+        ]
+      },
+      "id": "node/9356716965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359197599",
+        "bench": "yes",
+        "check_date:shelter": "2026-01-24",
+        "highway": "bus_stop",
+        "name": "Parque de la Inmaculada Concepción",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "222A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0492365,
+          4.6714433
+        ]
+      },
+      "id": "node/9359197599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359197600",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Embajada de Francia",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "044A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0479254,
+          4.6740126
+        ]
+      },
+      "id": "node/9359197600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359197601",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Parque de la 93 - 220A00",
+        "name:es": "Parque de la 93 - 220A00",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "220A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0468701,
+          4.6760582
+        ]
+      },
+      "id": "node/9359197601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359197602",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Chicó norte",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "219A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0456575,
+          4.6783949
+        ]
+      },
+      "id": "node/9359197602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359197603",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Chicó norte II sector",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "218A01",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0443707,
+          4.6808735
+        ]
+      },
+      "id": "node/9359197603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359288501",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Centro Comercial Andino",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "223A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.052531,
+          4.6664673
+        ]
+      },
+      "id": "node/9359288501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359394584",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Pedagógica Nacional",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "314A00",
+        "ref:sitp": "314A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0591113,
+          4.6576453
+        ]
+      },
+      "id": "node/9359394584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359394585",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Espartillal",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "224A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.054138,
+          4.6640325
+        ]
+      },
+      "id": "node/9359394585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9362391872",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Avenida Carrera 11",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "BD-051A",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0565338,
+          4.6612407
+        ]
+      },
+      "id": "node/9362391872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9362813575",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Clínica del Niño",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "229A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0612607,
+          4.6532753
+        ]
+      },
+      "id": "node/9362813575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9368025353",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Centro Comercial Andino",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "295A00",
+        "shelter": "yes",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0526941,
+          4.667515
+        ]
+      },
+      "id": "node/9368025353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9368025364",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "El Retiro",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "294A00",
+        "shelter": "yes",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0508768,
+          4.6655804
+        ]
+      },
+      "id": "node/9368025364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9368286008",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "no",
+        "description": "AK 13 - CL 40",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Br. Sucre",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "236A00",
+        "ref:sitp": "236A00",
+        "shelter": "yes",
+        "source": "BogoMap;TransmiApp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0672235,
+          4.6276967
+        ]
+      },
+      "id": "node/9368286008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9368286009",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad Piloto de Colombia",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "234A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0662589,
+          4.6334259
+        ]
+      },
+      "id": "node/9368286009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9368782104",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad La Gran Colombia",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "235A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0665609,
+          4.6317648
+        ]
+      },
+      "id": "node/9368782104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9370635290",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "SITP",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "304A00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0556415,
+          4.6691584
+        ]
+      },
+      "id": "node/9370635290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9843010717",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Parada",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0651077,
+          4.628291
+        ]
+      },
+      "id": "node/9843010717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10830888108",
+        "highway": "bus_stop",
+        "name": "Centro Comercial La Plazuela 308B00",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "ref": "308B00",
+        "shelter": "yes",
+        "source": "BogoMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0527919,
+          4.6749216
+        ]
+      },
+      "id": "node/10830888108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11113162535",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "no",
+        "description": "K 13 - CL 39",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Br. Sucre",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref": "236B00",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0671401,
+          4.6282123
+        ]
+      },
+      "id": "node/11113162535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11742200969",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Parada Bus Dual SITP",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0542999,
+          4.6566052
+        ]
+      },
+      "id": "node/11742200969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11812099870",
+        "highway": "bus_stop",
+        "name": "Parada Bus SITP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0568339,
+          4.6706846
+        ]
+      },
+      "id": "node/11812099870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13207921001",
+        "highway": "bus_stop",
+        "name": "Paradero SITP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0598753,
+          4.6616149
+        ]
+      },
+      "id": "node/13207921001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13207921003",
+        "highway": "bus_stop",
+        "name": "Paradero SITP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0483928,
+          4.6837629
+        ]
+      },
+      "id": "node/13207921003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13207921101",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 303A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0572356,
+          4.6660565
+        ]
+      },
+      "id": "node/13207921101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771302",
+        "highway": "bus_stop",
+        "name": "Paradero Dual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0583641,
+          4.6506389
+        ]
+      },
+      "id": "node/13226771302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771303",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 375A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.061088,
+          4.6457703
+        ]
+      },
+      "id": "node/13226771303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771305",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 819A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0618871,
+          4.6435857
+        ]
+      },
+      "id": "node/13226771305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771308",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 378A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0631771,
+          4.6387155
+        ]
+      },
+      "id": "node/13226771308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771401",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 818A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0557555,
+          4.6542013
+        ]
+      },
+      "id": "node/13226771401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771402",
+        "highway": "bus_stop",
+        "name": "Paradero Dual BD014D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0605996,
+          4.6465439
+        ]
+      },
+      "id": "node/13226771402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771501",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 371A010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0572763,
+          4.6518084
+        ]
+      },
+      "id": "node/13226771501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771602",
+        "highway": "bus_stop",
+        "name": "Paradero Dual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0623164,
+          4.6419783
+        ]
+      },
+      "id": "node/13226771602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771604",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 822A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0647434,
+          4.630092
+        ]
+      },
+      "id": "node/13226771604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226771901",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 820A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0638552,
+          4.6350575
+        ]
+      },
+      "id": "node/13226771901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226836704",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 84A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0652031,
+          4.6278891
+        ]
+      },
+      "id": "node/13226836704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226842002",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 377A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0629534,
+          4.6389338
+        ]
+      },
+      "id": "node/13226842002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226842003",
+        "highway": "bus_stop",
+        "name": "La Salle 825A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0607594,
+          4.6459949
+        ]
+      },
+      "id": "node/13226842003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226842201",
+        "highway": "bus_stop",
+        "name": "Pardo Rubio 381A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0637765,
+          4.6333626
+        ]
+      },
+      "id": "node/13226842201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13226873901",
+        "highway": "bus_stop",
+        "name": "Paradero SITP 049A00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0547695,
+          4.6559698
+        ]
+      },
+      "id": "node/13226873901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13281957918",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centro Comercial Avenida Chile",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0581722,
+          4.6569511
+        ]
+      },
+      "id": "node/13281957918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13281957922",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Carrera 8",
+        "network": "SITP",
+        "network:wikidata": "Q6129638",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0563483,
+          4.6556981
+        ]
+      },
+      "id": "node/13281957922"
+    }
+  ]
+}
