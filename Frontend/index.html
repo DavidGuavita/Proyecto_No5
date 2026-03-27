@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visualizador interactivo del SITP en la localidad de Chapinero, Bogotá.">
+    <title>Proyecto SITP Chapinero</title>
 
-<meta charset="UTF-8">
-<title>Proyecto SITP Chapinero</title>
-
-<link rel="stylesheet" href="styles.css">
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
 
 <body>
 
-<div class="menu">
+    <nav class="menu">
+        <button id="btn-mapa">Mapa</button>
+        <button id="btn-mapsitp">Mapa SITP</button>
 
-<button onclick="mostrar('mapa')">Mapa</button>
+        <select id="select-info">
+            <option value="">Información</option>
+            <option value="area">Área</option>
+            <option value="nombre">Nombre</option>
+            <option value="wiki">Wiki</option>
+        </select>
 
-<button onclick="mostrar('mapsitp')">Mapa SITP</button>
+        <select id="select-estacion">
+            <option value="">Estaciones</option>
+            <option value="parada1">Parada 1</option>
+            <option value="parada2">Parada 2</option>
+            <option value="parada3">Parada 3</option>
+        </select>
 
-<select onchange="mostrarInfo(this.value)">
-<option>Información</option>
-<option value="area">Área</option>
-<option value="nombre">Nombre</option>
-<option value="wiki">Wiki</option>
-</select>
+        <button id="btn-analisis">Análisis</button>
+    </nav>
 
-<select onchange="mostrarEstacion(this.value)">
-<option>Estaciones</option>
-<option value="parada1">Parada 1</option>
-<option value="parada2">Parada 2</option>
-<option value="parada3">Parada 3</option>
-</select>
+    <main id="contenido">
+        <p>Seleccione una opción</p>
+    </main>
 
-<button onclick="mostrar('analisis')">Análisis</button>
-
-</div>
-
-<div id="contenido">
-
-Seleccione una opción
-
-</div>
-
-<script src="program.js"></script>
+    <!-- Leaflet JS con defer para no bloquear el parser -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+    <script src="program.js" defer></script>
 
 </body>
 

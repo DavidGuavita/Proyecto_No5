@@ -1,63 +1,52 @@
-const contenido = document.getElementById("contenido")
+const API = "http://127.0.0.1:8000";
+let mapa = null;
+const contenido = document.getElementById("contenido");
 
-function mostrar(opcion) {
-    if(opcion === "mapa"){
-        contenido.innerHTML = `<div id="map" style="height:500px;"></div>`
-        
-        const map = L.map('map').setView([4.65, -74.05], 13)
-        
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19
-        }).addTo(map)
-        
-        fetch("http://127.0.0.1:8000/map")
-            .then(response => response.json())
-            .then(data => {
-                L.geoJSON(data).addTo(map)
-            })
+function limpiar(html) {
+    if (mapa) { mapa.remove(); mapa = null; }
+    contenido.innerHTML = html;
+}
+
+function crearMapa(id) {
+    const m = L.map(id).setView([4.65, -74.05], 13);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19 }).addTo(m);
+    return m;
+}
+
+function cargarCapa(m, ruta) {
+    return fetch(API + ruta).then(r => r.json()).then(d => L.geoJSON(d).addTo(m));
+}
+
+function mostrar(op) {
+    if (op === "mapa") {
+        limpiar('<div id="map" style="height:500px"></div>');
+        mapa = crearMapa("map");
+        cargarCapa(mapa, "/map").catch(() => limpiar('<p class="error">Error cargando mapa.</p>'));
     }
-    
-    if(opcion === "mapsitp"){
-        contenido.innerHTML = `<div id="map-sitp" style="height:500px;"></div>`
-        
-        const map = L.map('map-sitp').setView([4.65, -74.05], 13)
-        
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19
-        }).addTo(map)
-        
-        // Cargar polígono de Chapinero
-        fetch("http://127.0.0.1:8000/map")
-            .then(response => response.json())
-            .then(chapinero => {
-                L.geoJSON(chapinero).addTo(map)
-                
-                // Cargar paradas SITP
-                return fetch("http://127.0.0.1:8000/sitp/chapinero")
-            })
-            .then(response => response.json())
-            .then(paradas => {
-                L.geoJSON(paradas).addTo(map)
-            })
+    if (op === "mapsitp") {
+        limpiar('<div id="map-sitp" style="height:500px"></div>');
+        mapa = crearMapa("map-sitp");
+        Promise.all([cargarCapa(mapa, "/map"), cargarCapa(mapa, "/sitp/chapinero")])
+            .catch(() => limpiar('<p class="error">Error cargando SITP.</p>'));
     }
-    
-    if(opcion === "analisis"){
-        contenido.innerHTML = "Aquí irá el análisis de distancia entre paradas"
+    if (op === "analisis") {
+        limpiar("<p>Análisis de distancia entre paradas.</p>");
     }
 }
 
-function mostrarInfo(info){
-    if(info === "area"){
-        contenido.innerHTML = "Área de la localidad"
-    }
-    if(info === "nombre"){
-        contenido.innerHTML = "Nombre de la parada"
-    }
-    if(info === "wiki"){
-        contenido.innerHTML = "URL de Wikipedia de la parada"
-    }
+function mostrarInfo(v) {
+    const info = { area: "Área de Chapinero.", nombre: "Nombre de la parada.", wiki: "Wikipedia de la localidad." };
+    if (info[v]) limpiar(`<p>${info[v]}</p>`);
 }
 
-function mostrarEstacion(estacion){
-    contenido.innerHTML = "Seleccionaste: " + estacion
+function mostrarEstacion(v) {
+    if (v) limpiar(`<p>Estación seleccionada: <strong>${v}</strong></p>`);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("btn-mapa").addEventListener("click", () => mostrar("mapa"));
+    document.getElementById("btn-mapsitp").addEventListener("click", () => mostrar("mapsitp"));
+    document.getElementById("btn-analisis").addEventListener("click", () => mostrar("analisis"));
+    document.getElementById("select-info").addEventListener("change", e => mostrarInfo(e.target.value));
+    document.getElementById("select-estacion").addEventListener("change", e => mostrarEstacion(e.target.value));
+});
