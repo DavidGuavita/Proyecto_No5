@@ -1,34 +1,18 @@
 :root {
-    --nav-bg:    #2c3e50;
-    --nav-text:  #ecf0f1;
-    --btn-bg:    #3d5166;
-    --btn-hover: #4a6278;
-    --accent:    #3498db;
-    --error:     #e74c3c;
+    --nav-bg: #2c3e50; --nav-text: #ecf0f1;
+    --btn-bg: #3d5166; --btn-hover: #4a6278;
+    --accent: #3498db; --error: #e74c3c;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 
 body { font-family: Arial, sans-serif; margin: 0; background: #f5f6fa; }
 
-.menu {
-    background: var(--nav-bg);
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-}
+.menu { background: var(--nav-bg); padding: 10px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 
 .menu button, .menu select {
-    padding: 8px 14px;
-    font-size: 14px;
-    border: none;
-    border-radius: 4px;
-    background: var(--btn-bg);
-    color: var(--nav-text);
-    cursor: pointer;
-    transition: background 0.2s;
+    padding: 8px 14px; font-size: 14px; border: none; border-radius: 4px;
+    background: var(--btn-bg); color: var(--nav-text); cursor: pointer; transition: background 0.2s;
 }
 
 .menu button:hover, .menu select:hover { background: var(--btn-hover); }
@@ -36,24 +20,10 @@ body { font-family: Arial, sans-serif; margin: 0; background: #f5f6fa; }
 #contenido { padding: 30px; font-size: 18px; min-height: 200px; }
 
 .loading { color: var(--accent); font-style: italic; animation: pulse 1.2s infinite; }
-.error   { color: var(--error); font-weight: bold; }
+.error { color: var(--error); font-weight: bold; }
 
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
-.analisis-bar {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px;
-    background: #ecf0f1;
-    flex-wrap: wrap;
-}
-
-.analisis-bar select {
-    padding: 6px 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    font-size: 14px;
-}
-
+.analisis-bar { display: flex; align-items: center; gap: 8px; padding: 10px; background: #ecf0f1; flex-wrap: wrap; }
+.analisis-bar select { padding: 6px 10px; border-radius: 4px; border: 1px solid #ccc; font-size: 14px; }
 #info-dist { font-weight: bold; color: var(--accent); }
